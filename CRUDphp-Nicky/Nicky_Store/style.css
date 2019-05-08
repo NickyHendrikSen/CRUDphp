@@ -1,0 +1,39 @@
+.header{
+    background-color:black;
+    height: 70px;
+    display:flex;
+    justify-content: center;
+}
+
+.header>span{
+    color:white;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.navBar{
+    background-color:rgb(154, 215, 255);
+    display:flex;
+}
+
+.navBar>a:hover{
+    background-color:rgb(75, 180, 250);
+}
+
+.navBar>a{
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    width: 100%;
+    color:black;
+    text-decoration: none;
+}
+
+body{
+    background-color:pink;
+}
